@@ -21,8 +21,8 @@ const CheckBox = () => {
                 <label>
                     <input
                         type="checkbox"
-                        value="ягоды"
-                        checked={selected.includes("ягоды")}
+                        value="Ягоды"
+                        checked={selected.includes("Ягоды")}
                         onChange={handleChange}
                     />
                     Ягоды
@@ -31,8 +31,8 @@ const CheckBox = () => {
                 <label>
                     <input
                         type="checkbox"
-                        value="фрукты"
-                        checked={selected.includes("фрукты")}
+                        value="Фрукты"
+                        checked={selected.includes("Фрукты")}
                         onChange={handleChange}
                     />
                     Фрукты
@@ -41,15 +41,15 @@ const CheckBox = () => {
                 <label>
                     <input
                         type="checkbox"
-                        value="овощи"
-                        checked={selected.includes("овощи")}
+                        value="Овощи"
+                        checked={selected.includes("Овощи")}
                         onChange={handleChange}
                     />
                     Овощи
                 </label>
 
                 <p className="text">
-                    Выбрано: {selected.length > 0 ? selected.join(", ") : "ничего"}
+                    Выбрано: {selected.length > 0 ? selected.join(", ") : "Ничего"}
                 </p>
             </div>
         </div>
