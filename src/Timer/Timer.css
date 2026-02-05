@@ -1,0 +1,26 @@
+.timer {
+    font-size: 48px;
+    width: 400px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    color: #A80366;
+    background: linear-gradient(#d6a1f680, #ce51ab78);
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.box button {
+    width: 100px;
+    height: 40px;
+    margin-left: 25px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    background: linear-gradient(#d6a1f680, #ce51ab78);
+    color: #A80366;
+    cursor: pointer;
+    font-size: 18px;
+}

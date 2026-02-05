@@ -8,7 +8,7 @@ const ModalWindow = () => {
     const closeModal = () => setIsOpen(false);
 
     return (
-        <div className="section">
+        <div className="section" id="modalWindow">
             <div className="container">
                 <button className="buttonModal" onClick={openModal}>Вызвать модальное окно</button>
                 {isOpen && (

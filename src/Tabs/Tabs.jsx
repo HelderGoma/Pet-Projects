@@ -4,7 +4,7 @@ import { useState } from "react"
 const Tabs = () => {
     const [activeTab, setActiveTab] = useState("tab1");
     return (
-        <div className="section">
+        <div className="section" id="tabs">
 
             <div className="tabs-nav">
                 <button className="buttonTabsHTML"

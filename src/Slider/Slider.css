@@ -1,0 +1,24 @@
+.slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider button {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    background:linear-gradient(#d6a1f680, #ce51ab78);
+    color: #A80366;
+    cursor: pointer;
+    font-size: 18px;
+    margin: 0 30px;
+}
+
+.slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

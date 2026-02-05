@@ -14,7 +14,7 @@ const CheckBox = () => {
     };
 
     return (
-        <div className="section">
+        <div className="section" id="checkbox">
             <div className="container">
                 <h2 className="title">Что вы любите?</h2>
 

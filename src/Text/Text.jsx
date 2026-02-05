@@ -7,7 +7,7 @@ const Text = () => {
 
     return (
 
-        <div className="section">
+        <div className="section" id="text">
 
             <div className="container">
                 <input
