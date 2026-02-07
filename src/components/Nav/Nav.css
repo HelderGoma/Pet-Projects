@@ -1,5 +1,5 @@
 .nav {
-    background: linear-gradient(#d6a1f680, #ce51ab78);
+    background: var(--bg);
     margin-bottom: 20px;
     padding: 10px 20px;
 }
@@ -11,7 +11,7 @@
 }
 
 .nav-title h1 {
-    color: #A80366;
+    color: var(--text);
     font-size: 18px;
     font-weight: 600;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -28,13 +28,13 @@
 
 .nav-link a {
     text-decoration: none;
-    color: #A80366;
+    color: var(--text);
     font-size: 15px;
     transition: color 0.2s ease;
 }
 
 .nav-link a:hover {
-    color: #510b35;
+    color: var(--nav);
 }
 
 .burger {
@@ -49,7 +49,7 @@
 .burger span {
     width: 22px;
     height: 2px;
-    background: #A80366;
+    background: var(--text);
     transition: 0.3s;
 }
 

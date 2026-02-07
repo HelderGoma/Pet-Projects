@@ -1,11 +1,11 @@
 .title {
     margin-bottom: 50px;
-    color: #A80366;
+    color: var(--text);
 }
 
 .text {
     margin-top: 50px;
-    color: #A80366;
+    color: var(--text);
     
 }
 
@@ -14,7 +14,7 @@ label {
     align-items: center;
     margin-bottom: 10px;
     cursor: pointer;
-    color: #A80366;
+    color: var(--text);
 
 }
 

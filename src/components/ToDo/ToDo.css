@@ -5,11 +5,11 @@
     border: none;
     outline: none;
     padding-left: 10px;
-    color: #A80366;
+    color: var(--text);
 }
 
 .todo-input input:focus {
-    border: 1px solid #A80366;
+    border: 1px solid var(--text);
 }
 
 .todo-input button {
@@ -19,14 +19,14 @@
     border-radius: 20px;
     border: none;
     outline: none;
-    background: linear-gradient(#d6a1f680, #ce51ab78);
-    color: #A80366;
+    background: var(--bg);  
+    color: var(--text);
     cursor: pointer;
     font-size: 18px;
 }
 
 .todo-input button:hover{
-    background:linear-gradient(#d5a1f6e5, #ce51ab78);
+    background: var(--bghover);
 }
 
 
@@ -45,12 +45,12 @@
     border-radius: 10px;
     border: none;
     outline: none;
-    background: linear-gradient(#d6a1f680, #ce51ab78);
-    color: #A80366;
+    background: var(--bg);
+    color: var(--text);
     cursor: pointer;
     font-size: 10px;
 }
 
 .todo-list li button:hover{
-    background:linear-gradient(#d5a1f6e5, #ce51ab78);
+    background: var(--bghover);
 }

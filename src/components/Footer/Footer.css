@@ -1,14 +1,14 @@
 .footer {
     width: 100%;
     height: 60px;
-    background: linear-gradient(#d6a1f680, #ce51ab78);
+    background: var(--bg);
     margin-top: 20px;
 }
 
 .footer p {
     text-align: center;
     padding-top: 30px;
-    color: #a803665e;
+    color: var(--footer);  
 
 }
 

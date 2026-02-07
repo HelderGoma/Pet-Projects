@@ -5,11 +5,11 @@
     border: none;
     outline: none;
     padding-left: 10px;
-    color: #A80366;
+    color: var(--text);
 }
 
 .search input:focus{
-    border: 1px solid #A80366;
+    border: 1px solid var(--text);
 }
 
 .search button {
@@ -19,31 +19,31 @@
     border-radius: 20px;
     border: none;
     outline: none;
-    background: linear-gradient(#d6a1f680, #ce51ab78);
-    color: #A80366;
+    background: var(--bg);
+    color: var(--text);
     cursor: pointer;
     font-size: 18px;
 }
 
 .search button:hover{
-    background:linear-gradient(#d5a1f6e5, #ce51ab78);
+    background: var(--bghover);
 }
 
 .weather {
     display : flex;
     flex-direction: column;
     gap : 10px;
-    color: #A80366;
+    color: var(--text);
     margin-top: 20px;
-    background:linear-gradient(#d6a1f680, #ce51ab78);
+    background:var(--bg);
     border-radius: 20px;
     padding: 20px;
 }
 
 .error {
-    color: #A80366;
+    color: var(--text);
     margin-top: 20px;
-    background:linear-gradient(#d6a1f680, #ce51ab78);
+    background: var(--bg);
     border-radius: 20px;
     padding: 20px;
 }

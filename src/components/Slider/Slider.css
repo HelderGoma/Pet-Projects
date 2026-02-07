@@ -17,15 +17,15 @@
     border-radius: 50%;
     border: none;
     outline: none;
-    background:linear-gradient(#d6a1f680, #ce51ab78);
-    color: #A80366;
+    background:var(--bg);
+    color: var(--text);
     cursor: pointer;
     font-size: 18px;
     margin: 0 30px;
 }
 
 .slider button:hover{
-    background:linear-gradient(#d5a1f6e5, #ce51ab78);
+    background: var(--bghover);
 }
 
 .slider {

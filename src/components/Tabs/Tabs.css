@@ -1,9 +1,9 @@
 .buttonTabsHTML {
-    background: linear-gradient(#d6a1f680, #ce51ab78);
+    background: var(--bg);
     border-radius: 20px;
     border: none;
     outline: none;
-    color: #A80366;
+    color: var(--text);
     cursor: pointer;
     font-size: 18px;
     width: 100px;
@@ -13,11 +13,11 @@
 
 
 .buttonTabsCSS {
-    background: linear-gradient(#d6a1f680, #ce51ab78);
+    background: var(--bg);
     border-radius: 20px;
     border: none;
     outline: none;
-    color: #A80366;
+    color: var(--text);
     cursor: pointer;
     font-size: 18px;
     width: 100px;
@@ -26,7 +26,7 @@
 }
 
 .tabs-content {
-    color: #A80366;
+    color: var(--text);
     margin: 40px;
 
 }

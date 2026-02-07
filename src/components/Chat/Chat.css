@@ -14,7 +14,7 @@
     flex: 1;
     padding: 12px;
     overflow-y: auto;
-    background: linear-gradient(#d6a1f680, #ce51ab78);
+    background: var(--bg);
 }
 
 
@@ -37,7 +37,7 @@
 }
 
 .chat-input:focus {
-    border-color: #A80366;
+    border-color: var(--text);
 }
 
 
@@ -46,12 +46,12 @@
     padding: 0 16px;
     border-radius: 18px;
     border: none;
-    background: linear-gradient(#d6a1f680, #ce51ab78);
-    color:#A80366;
+    background: var(--bg);
+    color: var(--text);
     cursor: pointer;
     font-size: 14px;
 }
 
 .chat-button:hover {
-    background:linear-gradient(#d5a1f6e5, #ce51ab78);
+    background: var(--bghover);
 }

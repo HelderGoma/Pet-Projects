@@ -6,8 +6,8 @@
     align-items: center;
     justify-content: center;
     margin-bottom: 20px;
-    color: #A80366;
-    background: linear-gradient(#d6a1f680, #ce51ab78);
+    color: var(--text);
+    background: var(--bg);
     border-radius: 20px;
     padding: 20px;
 }
@@ -19,12 +19,12 @@
     border-radius: 20px;
     border: none;
     outline: none;
-    background: linear-gradient(#d6a1f680, #ce51ab78);
-    color: #A80366;
+    background: var(--bg);
+    color: var(--text); 
     cursor: pointer;
     font-size: 18px;
 }
 
 .box button:hover{
-    background:linear-gradient(#d5a1f6e5, #ce51ab78);
+    background:var(--bghover);
 }

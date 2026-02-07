@@ -7,7 +7,7 @@
     border-radius: 20px;
     padding: 10px;
     overflow: hidden;
-    background: linear-gradient(#d6a1f680, #ce51ab78);
+    background: var(--bg);
 }
 
 .sidebar {
@@ -25,10 +25,10 @@
 }
 
 .buttonSidebar {
-    background: linear-gradient(#d6a1f680, #ce51ab78);
+    background: var(--bg);
     border-radius: 10px;
     border: none;
-    color: #A80366;
+    color: var(--text);
     cursor: pointer;
     font-size: 18px;
     width: 100px;
@@ -36,18 +36,18 @@
 }
 
 .buttonSidebar:hover {
-    background:linear-gradient(#d5a1f6e5, #ce51ab78);
+    background: var(--bghover);
 }
 
 .sidebar nav a {
     display: block;
     padding: 10px;
-    color: #A80366;
+    color: var(--text);
     text-decoration: none;
     transition: background-color 0.2s ease;
 }
 
 .sidebar nav a:hover {
-    background-color: #A80366;
+    background-color: var(--text);
     color: #fff;
 }
