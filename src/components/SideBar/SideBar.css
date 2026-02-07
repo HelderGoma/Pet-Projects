@@ -1,0 +1,53 @@
+.sectionSidebar {
+    position: relative;
+    width: 510px;
+    margin: 0 auto;
+    height: 400px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    padding: 10px;
+    overflow: hidden;
+    background: linear-gradient(#d6a1f680, #ce51ab78);
+}
+
+.sidebar {
+    position: absolute;
+    top: 60px;
+    left: -220px;
+    width: 200px;
+    height: calc(100% - 60px);
+    transition: left 0.3s ease;
+
+}
+
+.sidebar.open {
+    left: 20px;
+}
+
+.buttonSidebar {
+    background: linear-gradient(#d6a1f680, #ce51ab78);
+    border-radius: 10px;
+    border: none;
+    color: #A80366;
+    cursor: pointer;
+    font-size: 18px;
+    width: 100px;
+    height: 40px;
+}
+
+.buttonSidebar:hover {
+    background:linear-gradient(#d5a1f6e5, #ce51ab78);
+}
+
+.sidebar nav a {
+    display: block;
+    padding: 10px;
+    color: #A80366;
+    text-decoration: none;
+    transition: background-color 0.2s ease;
+}
+
+.sidebar nav a:hover {
+    background-color: #A80366;
+    color: #fff;
+}

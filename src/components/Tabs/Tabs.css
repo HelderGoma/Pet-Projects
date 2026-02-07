@@ -1,0 +1,32 @@
+.buttonTabsHTML {
+    background: linear-gradient(#d6a1f680, #ce51ab78);
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    color: #A80366;
+    cursor: pointer;
+    font-size: 18px;
+    width: 100px;
+    height: 40px;
+    margin-left: 25%;
+}
+
+
+.buttonTabsCSS {
+    background: linear-gradient(#d6a1f680, #ce51ab78);
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    color: #A80366;
+    cursor: pointer;
+    font-size: 18px;
+    width: 100px;
+    height: 40px;
+    margin-left: 20px;
+}
+
+.tabs-content {
+    color: #A80366;
+    margin: 40px;
+
+}

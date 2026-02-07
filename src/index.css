@@ -4,6 +4,21 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+:root {
+    --bg: #ffffff;
+    --text: #111827;
+    --card-bg: #f9fafb;
+}
+
+[data-theme='dark'] {
+    --bg: #0f172a;
+    --text: #f8fafc;
+
+}
 
 .mainTitle {
     color: #A80366;
@@ -12,21 +27,104 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background:linear-gradient(#d6a1f680, #ce51ab78);
+    background: linear-gradient(#d6a1f680, #ce51ab78);
     border-radius: 20px;
-    margin-left: 41%;
-    margin-bottom: 20px;
-    margin-top: 60px ;
+    margin: 60px auto 20px;
 }
 
 .section {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: 32%;
-    background:linear-gradient(#d6a1f680, #ce51ab78);
+    background: linear-gradient(#d6a1f680, #ce51ab78);
     width: 510px;
     height: 289px;
     border-radius: 20px;
+    margin: 0 auto;
 }
 
+.link {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 10px;
+}
+
+.active-btn {
+    width: 15px;
+    height: 15px;
+    background: rgb(215, 213, 213);
+    border-radius: 20%;
+    border: none;
+    cursor: pointer;
+}
+
+.default-button {
+    width: 15px;
+    height: 15px;
+    background: linear-gradient(#d6a1f680, #ce51ab78);
+    border-radius: 20%;
+    border: none;
+    cursor: pointer;
+}
+
+.basket-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+
+
+@media (max-width: 768px) {
+    .mainTitle {
+        width: 200px;
+        font-size: 14px;
+    }
+
+    .section {
+        width: 90%;
+        height: auto;
+        padding: 20px;
+    }
+
+    .link {
+        margin-top: 30px;
+    }
+
+    .basket-container {
+        gap: 30px;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .mainTitle {
+        width: 180px;
+        height: auto;
+        padding: 6px 10px;
+        font-size: 13px;
+    }
+
+    .section {
+        width: 95%;
+        padding: 15px;
+        border-radius: 14px;
+    }
+
+    .link {
+        gap: 8px;
+    }
+
+    .active-btn,
+    .default-button {
+        width: 12px;
+        height: 12px;
+    }
+
+    .basket-container {
+        gap: 20px;
+    }
+}

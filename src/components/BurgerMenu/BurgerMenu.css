@@ -1,0 +1,32 @@
+.buttonBurger {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    background:linear-gradient(#d6a1f680, #ce51ab78);
+    color: #A80366;
+    cursor: pointer;
+    font-size: 18px;
+    margin: 0 30px;
+}
+
+.buttonBurger:hover{
+    background:linear-gradient(#d5a1f6e5, #ce51ab78);
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    background:linear-gradient(#d6a1f680, #ce51ab78);
+    border-radius: 20px;
+    margin: 20px 0;
+    padding: 20px;
+}
+
+.menu a {
+    color: #A80366;
+    text-decoration: none;
+    margin-bottom: 10px;
+}

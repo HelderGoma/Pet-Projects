@@ -1,0 +1,88 @@
+.nav {
+    background: linear-gradient(#d6a1f680, #ce51ab78);
+    margin-bottom: 20px;
+    padding: 10px 20px;
+}
+
+.nav-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-title h1 {
+    color: #A80366;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.nav-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.nav-link a {
+    text-decoration: none;
+    color: #A80366;
+    font-size: 15px;
+    transition: color 0.2s ease;
+}
+
+.nav-link a:hover {
+    color: #510b35;
+}
+
+.burger {
+    display: none;
+    flex-direction: column;
+    gap: 4px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.burger span {
+    width: 22px;
+    height: 2px;
+    background: #A80366;
+    transition: 0.3s;
+}
+
+/* Анимация крестика */
+.burger.active span:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+}
+
+.burger.active span:nth-child(2) {
+    opacity: 0;
+}
+
+.burger.active span:nth-child(3) {
+    transform: rotate(-45deg) translate(5px, -5px);
+}
+
+@media (max-width: 768px) {
+    .burger {
+        display: flex;
+    }
+
+    .nav-link {
+        display: none;
+        flex-direction: column;
+        gap: 12px;
+        margin-top: 15px;
+    }
+
+    .nav-link.open {
+        display: flex;
+    }
+
+    .nav-link a {
+        font-size: 16px;
+    }
+}

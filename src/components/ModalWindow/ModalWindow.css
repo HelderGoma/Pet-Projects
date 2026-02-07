@@ -1,0 +1,40 @@
+.buttonModal {
+    width: 400px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    background:linear-gradient(#d6a1f680, #ce51ab78);
+    color: #A80366;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.buttonModal:hover {
+    background:linear-gradient(#d5a1f6e5, #ce51ab78);
+}
+
+.close-button {
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    background:linear-gradient(#d6a1f680, #ce51ab78);
+    color: #A80366;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 60px;
+}
+
+.modal-content {
+    width: 400px;
+    height: 200px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    background:linear-gradient(#d6a1f680, #ce51ab78);
+    color: #A80366;
+    cursor: pointer;
+    font-size: 18px;
+}
