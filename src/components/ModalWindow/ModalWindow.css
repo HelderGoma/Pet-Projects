@@ -37,8 +37,9 @@
     border-radius: 20px;
     border: none;
     outline: none;
-    background: var(--bg);
+    background: white;
     color: var(--text);
     cursor: pointer;
     font-size: 18px;
 }
+

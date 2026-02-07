@@ -8,18 +8,28 @@ html {
     scroll-behavior: smooth;
 }
 
-:root {
-    --bg: linear-gradient(#d6a1f680, #ce51ab78);
-    --text: #A80366;
-    --bghover:linear-gradient(#d5a1f6e5, #ce51ab78);
-    --footer: #a803665e;
-    --nav: #510b35;
+body {
+    background: var(--bgbody);
+    color: var(--text);
+    transition: background 0.3s, color 0.3s;
 }
 
-[data-theme='dark'] {
-    --bg: #0f172a;
-    --text: #f8fafc;
+:root {
+    --bgbody: #fff;
+    --bg: linear-gradient(#d6a1f680, #ce51ab78);
+    --text: #A80366;
+    --bghover: linear-gradient(#d5a1f6e5, #ce51ab78);
+    --footer: #a803665e;
+    --nav: #a803665e;
+}
 
+body.dark {
+    --bgbody: #082422;
+    --bg: linear-gradient(#eedff829, #eedff812);
+    --text: #9c9d9d;
+    --bghover: linear-gradient(#8a8091, #EEDFF8);
+    --footer: #0b1b1ab6;
+    --nav: #0b1b1ab6;
 }
 
 .mainTitle {

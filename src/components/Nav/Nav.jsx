@@ -1,37 +1,56 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import "./Nav.css";
 
 const Nav = () => {
     const [open, setOpen] = useState(false);
+    const [dark, setDark] = useState(false);
+
+    useEffect(() => {
+        const savedTheme = localStorage.getItem("theme");
+        if (savedTheme === "dark") {
+            setDark(true);
+            document.body.classList.add("dark");
+        }
+    }, []);
+
+    const toggleTheme = () => {
+        setDark(!dark);
+        document.body.classList.toggle("dark");
+        localStorage.setItem("theme", !dark ? "dark" : "light");
+    };
 
     return (
         <nav className="nav">
             <div className="nav-top">
-                <div className="nav-title">
-                    <h1>Easy Pet-projects</h1>
-                </div>
+                <h1 className="nav-title">Easy Pet-projects</h1>
 
-                <button
-                    className={`burger ${open ? "active" : ""}`}
-                    onClick={() => setOpen(!open)}
-                >
-                    <span />
-                    <span />
-                    <span />
-                </button>
+                <div className="nav-actions">
+                    <button className="theme-btn" onClick={toggleTheme}>
+                        {dark ? "☀️" : "🌙"}
+                    </button>
+
+                    <button
+                        className={`burger ${open ? "active" : ""}`}
+                        onClick={() => setOpen(!open)}
+                    >
+                        <span />
+                        <span />
+                        <span />
+                    </button>
+                </div>
             </div>
 
             <div className={`nav-link ${open ? "open" : ""}`}>
                 <a href="/#text">Text</a>
-                <a href="/#modalWindow">ModalWindow</a>
-                <a href="/#checkbox">CheckBox</a>
+                <a href="/#modalWindow">Modal</a>
+                <a href="/#checkbox">Checkbox</a>
                 <a href="/#tabs">Tabs</a>
                 <a href="/#slider">Slider</a>
-                <a href="/#burgerMenu">BurgerMenu</a>
+                <a href="/#burgerMenu">Burger</a>
                 <a href="/#sidebar">Sidebar</a>
-                <a href="/2#todoApp">ToDoApp</a>
+                <a href="/2#todoApp">Todo</a>
                 <a href="/2#timer">Timer</a>
-                <a href="/2#weatherApp">WeatherApp</a>
+                <a href="/2#weatherApp">Weather</a>
                 <a href="/2#basket">Basket</a>
                 <a href="/2#ticTacToe">TicTacToe</a>
                 <a href="/2#calculator">Calculator</a>

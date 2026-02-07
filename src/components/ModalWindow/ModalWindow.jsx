@@ -21,7 +21,6 @@ const ModalWindow = () => {
             left: 0,
             width: "100%",
             height: "100%",
-            backgroundColor: "rgba(0,0,0,0.5)",
             display: "flex",
             justifyContent: "center",
             alignItems: "center",
@@ -31,7 +30,6 @@ const ModalWindow = () => {
             className="modal-content" 
             onClick={(e) => e.stopPropagation()} 
             style={{
-              backgroundColor: "#fff",
               padding: "20px",
               borderRadius: "8px",
               maxWidth: "500px",

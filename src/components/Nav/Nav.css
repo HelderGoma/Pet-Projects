@@ -1,48 +1,60 @@
 .nav {
-    background: var(--bg);
-    margin-bottom: 20px;
+    background: var(--nav);
     padding: 10px 20px;
+    margin-bottom: 20px;
 }
 
 .nav-top {
     display: flex;
-    align-items: center;
     justify-content: space-between;
+    align-items: center;
 }
 
-.nav-title h1 {
+.nav-title {
     color: var(--text);
     font-size: 18px;
     font-weight: 600;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.nav-actions {
+    display: flex;
+    align-items: center;
+    gap: 12px;
 }
 
 .nav-link {
     display: flex;
-    align-items: center;
     justify-content: center;
-    gap: 20px;
     flex-wrap: wrap;
+    gap: 16px;
     margin-top: 10px;
 }
 
 .nav-link a {
     text-decoration: none;
     color: var(--text);
-    font-size: 15px;
-    transition: color 0.2s ease;
+    transition: color 0.2s;
 }
 
 .nav-link a:hover {
-    color: var(--nav);
+    opacity: 0.7;
 }
 
+/* кнопка темы */
+.theme-btn {
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* бургер */
 .burger {
     display: none;
     flex-direction: column;
     gap: 4px;
-    background: none;
     border: none;
+    background: none;
     cursor: pointer;
 }
 
@@ -53,7 +65,6 @@
     transition: 0.3s;
 }
 
-/* Анимация крестика */
 .burger.active span:nth-child(1) {
     transform: rotate(45deg) translate(5px, 5px);
 }
@@ -66,6 +77,7 @@
     transform: rotate(-45deg) translate(5px, -5px);
 }
 
+/* мобильная версия */
 @media (max-width: 768px) {
     .burger {
         display: flex;
@@ -74,15 +86,9 @@
     .nav-link {
         display: none;
         flex-direction: column;
-        gap: 12px;
-        margin-top: 15px;
     }
 
     .nav-link.open {
         display: flex;
-    }
-
-    .nav-link a {
-        font-size: 16px;
     }
 }
