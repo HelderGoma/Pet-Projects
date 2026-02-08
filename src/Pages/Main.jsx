@@ -5,7 +5,7 @@ import Tabs from "../components/Tabs/Tabs"
 import Slider from "../components/Slider/Slider"
 import BurgerMenu from "../components/BurgerMenu/BurgerMenu"
 import Sidebar from "../components/SideBar/SideBar"
-import { bg1, bg2 } from "../../public/images/images"
+import { bg1, bg2 } from "../assets/images/images"
 
 
 

@@ -1,5 +1,5 @@
 import "./Catalog.css"
-import { tomat, potato, cucumber } from "../../../public/images/images";
+import { tomat, potato, cucumber } from "../../assets/images/images"
 
 
 

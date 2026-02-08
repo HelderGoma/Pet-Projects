@@ -7,7 +7,7 @@ import Calculator from "../components/Calculator/Calculator"
 import Chat from "../components/Chat/Chat"
 import { useState } from "react";
 import Catalog from "../components/Basket/Catalog";
-import { bg1, bg2 } from "../../public/images/images";
+import { bg1, bg2 } from "../assets/images/images";
 
 
 const Second = () => {

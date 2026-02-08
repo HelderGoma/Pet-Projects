@@ -1,7 +1,7 @@
 
 import { useState } from "react";
 import "./Slider.css"
-import { Ellipse9, Ellipse4, Ellipse8 } from "../../../public/images/images";
+import { Ellipse9, Ellipse4, Ellipse8 } from "../../assets/images/images";
  
 const Slider = () => {
  const slides = [
