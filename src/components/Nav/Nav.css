@@ -40,6 +40,12 @@
     opacity: 0.7;
 }
 
+.nav-title span {
+    color: var(--text);
+    font-size: 10px;
+    font-family: cursive;
+}
+
 
 .theme-switch {
     width: 60px;

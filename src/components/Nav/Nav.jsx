@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { NavLink } from "react-router-dom";
 import "./Nav.css";
 
 const Nav = () => {
@@ -22,7 +23,7 @@ const Nav = () => {
     return (
         <nav className="nav">
             <div className="nav-top">
-                <h1 className="nav-title">Frontend Lab</h1>
+                <h1 className="nav-title">Frontend Lab <span>by HGoma</span></h1>
 
                 <div className="nav-actions">
                     <button className={`theme-switch ${dark ? "dark" : ""}`} onClick={toggleTheme}>
@@ -43,20 +44,20 @@ const Nav = () => {
             </div>
 
             <div className={`nav-link ${open ? "open" : ""}`}>
-                <a href="/#text">Text</a>
-                <a href="/#modalWindow">ModalWindow</a>
-                <a href="/#checkbox">Checkbox</a>
-                <a href="/#tabs">Tabs</a>
-                <a href="/#slider">Slider</a>
-                <a href="/#burgerMenu">BurgerMenu</a>
-                <a href="/#sidebar">Sidebar</a>
-                <a href="/2#todoApp">TodoApp</a>
-                <a href="/2#timer">Timer</a>
-                <a href="/2#weatherApp">WeatherApp</a>
-                <a href="/2#basket">Basket</a>
-                <a href="/2#ticTacToe">TicTacToe</a>
-                <a href="/2#calculator">Calculator</a>
-                <a href="/2#chat">Chat</a>
+                <NavLink to="/#text">Text</NavLink>
+                <NavLink to="/#modalWindow">ModalWindow</NavLink>
+                <NavLink to="/#checkbox">Checkbox</NavLink>
+                <NavLink to="/#tabs">Tabs</NavLink>
+                <NavLink to="/#slider">Slider</NavLink>
+                <NavLink to="/#burgerMenu">BurgerMenu</NavLink>
+                <NavLink to="/#sidebar">Sidebar</NavLink>
+                <NavLink to="/2#todoApp">TodoApp</NavLink>
+                <NavLink to="/2#timer">Timer</NavLink>
+                <NavLink to="/2#weatherApp">WeatherApp</NavLink>
+                <NavLink to="/2#basket">Basket</NavLink>
+                <NavLink to="/2#ticTacToe">TicTacToe</NavLink>
+                <NavLink to="/2#calculator">Calculator</NavLink>
+                <NavLink to="/2#chat">Chat</NavLink>
             </div>
         </nav>
     );
