@@ -22,7 +22,7 @@ const Nav = () => {
     return (
         <nav className="nav">
             <div className="nav-top">
-                <h1 className="nav-title">Easy Pet-projects</h1>
+                <h1 className="nav-title">Frontend Lab</h1>
 
                 <div className="nav-actions">
                     <button className={`theme-switch ${dark ? "dark" : ""}`} onClick={toggleTheme}>
