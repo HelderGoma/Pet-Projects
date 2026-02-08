@@ -6,16 +6,12 @@ export default function ScrollToHash() {
 
     useEffect(() => {
         if (hash) {
-            const scrollToElement = () => {
+            setTimeout(() => {
                 const element = document.querySelector(hash);
                 if (element) {
                     element.scrollIntoView({ behavior: "smooth", block: "start" });
-                } else {
-                    setTimeout(scrollToElement, 50);
                 }
-            };
-
-            scrollToElement();
+            }, 50); 
         } else {
             window.scrollTo({ top: 0, behavior: "auto" });
         }
