@@ -46,3 +46,11 @@
 .product button:hover{
     background:linear-gradient(#d5a1f6e5, #ce51ab78);
 }
+
+@media (max-width: 600px) {
+    .product {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+}

@@ -55,3 +55,18 @@
 .chat-button:hover {
     background: var(--bghover);
 }
+
+@media (max-width: 768px) {
+
+    .chat {
+        width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .chat {
+        width: 95%;
+
+    }
+}

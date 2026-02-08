@@ -50,3 +50,20 @@
     background-color: var(--text);
     color: #fff;
 }
+
+@media (max-width: 768px) {
+
+    .sectionSidebar {
+        width: 90%;
+        padding: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .sectionSidebar {
+        width: 95%;
+        padding: 15px;
+        border-radius: 14px;
+    }
+}
