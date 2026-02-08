@@ -25,8 +25,10 @@ const Nav = () => {
                 <h1 className="nav-title">Easy Pet-projects</h1>
 
                 <div className="nav-actions">
-                    <button className="theme-btn" onClick={toggleTheme}>
-                        {dark ? "☀️" : "🌙"}
+                    <button className={`theme-switch ${dark ? "dark" : ""}`} onClick={toggleTheme}>
+                        <div className="switch-circle">
+                            {dark ? "🌙" : "☀️"}
+                        </div>
                     </button>
 
                     <button

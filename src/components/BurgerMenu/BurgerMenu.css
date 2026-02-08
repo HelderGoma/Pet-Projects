@@ -11,7 +11,7 @@
     margin: 0 30px;
 }
 
-.buttonBurger:hover{
+.buttonBurger:hover {
     background: var(--bghover);
 }
 
@@ -29,4 +29,9 @@
     color: var(--text);
     text-decoration: none;
     margin-bottom: 10px;
+}
+
+.menu a:hover {
+    color: #fff;
+
 }
