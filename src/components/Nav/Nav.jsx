@@ -44,15 +44,15 @@ const Nav = () => {
 
             <div className={`nav-link ${open ? "open" : ""}`}>
                 <a href="/#text">Text</a>
-                <a href="/#modalWindow">Modal</a>
+                <a href="/#modalWindow">ModalWindow</a>
                 <a href="/#checkbox">Checkbox</a>
                 <a href="/#tabs">Tabs</a>
                 <a href="/#slider">Slider</a>
-                <a href="/#burgerMenu">Burger</a>
+                <a href="/#burgerMenu">BurgerMenu</a>
                 <a href="/#sidebar">Sidebar</a>
-                <a href="/2#todoApp">Todo</a>
+                <a href="/2#todoApp">TodoApp</a>
                 <a href="/2#timer">Timer</a>
-                <a href="/2#weatherApp">Weather</a>
+                <a href="/2#weatherApp">WeatherApp</a>
                 <a href="/2#basket">Basket</a>
                 <a href="/2#ticTacToe">TicTacToe</a>
                 <a href="/2#calculator">Calculator</a>

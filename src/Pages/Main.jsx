@@ -5,12 +5,19 @@ import Tabs from "../components/Tabs/Tabs"
 import Slider from "../components/Slider/Slider"
 import BurgerMenu from "../components/BurgerMenu/BurgerMenu"
 import Sidebar from "../components/SideBar/SideBar"
+import { bg1, bg2 } from "../../public/images/images"
 
 
 
 const Main = () => {
     return (
         <>
+            <img className="bg-small" src={bg1} alt="" />
+            <img className="bg-medium" src={bg2} alt="" />
+            <img className="bg-large" src={bg2} alt="" />
+            <img className="bg-right-small" src={bg1} alt="" />
+            <img className="bg-right-medium" src={bg2} alt="" />
+            <img className="bg-right-large" src={bg2} alt="" />
             <div className="mainTitle" id="text">
                 <p>Text</p>
             </div>
