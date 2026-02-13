@@ -1,16 +1,42 @@
-# React + Vite
+# Pet‑Projects
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Коллекция небольших веб‑проектов и экспериментов, демонстрирующих навыки фронтенд‑разработки на чистом JavaScript и современных инструментах (Vite, ES‑модули).
 
-Currently, two official plugins are available:
+Этот репозиторий содержит набор мини‑приложений, каждое из которых решает определённую задачу и показывает практическое знание DOM, событий, асинхронности, API, UI/UX логики и структуры проекта.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📦 Что внутри
 
-## React Compiler
+Проекты расположены в структуре с папками:
+Pet‑Projects/
+├── public/     — статические файлы (index.html, изображения, и т.п.)
+├── src/        — исходный код JavaScript, CSS
+├── package.json
+├── vite.config.js
+└── README.md
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Каждый проект:
+- написан на **чистом JavaScript (ES6+)**;
+- не требует сложных фреймворков;
+- легко разворачивается локально;
+- показывает работу с DOM, событиями, асинхронными запросами и UI.
 
-## Expanding the ESLint configuration
+## 🧠 Примеры навыков, которые демонстрируют проекты
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+✔ Работа с **DOM API и событиями**  
+✔ Управление состоянием UI через JavaScript  
+✔ Асинхронные запросы и обработка данных  
+✔ Работа с формами и валидацией  
+✔ Использование **Vite** для быстрого старта проекта  
+
+## 📌 Как запустить (локально)
+
+1. Склонируй репозиторий:
+   ```bash
+   git clone https://github.com/HelderGoma/Pet‑Projects.git
+2.	Перейди в папку проекта:
+    ```cd Pet‑Projects
+3.	Установи зависимости:
+  	```npm install
+4.	Запусти приложение:
+    ```npm run dev
+5.	Открой браузер по адресу http://localhost:5173
